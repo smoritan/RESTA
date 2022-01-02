@@ -1,0 +1,46 @@
+.firstSection {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* Set rules to fill background */
+    min-height: 730px;
+    min-width: 1024px;
+      
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+      
+    /* Set up positioning */
+    display: block;
+    top: 0;
+    left: 0;
+  }
+    .title {
+      font-size: 250px;
+      color: #FFFFFF;
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -100%);
+    }
+    .helper {
+      position: absolute;
+      margin: 2% 3% 0;
+      right: 0;
+      width: 40%;
+      display: flex;
+      justify-content: space-evenly;
+    }
+  
+    .helperbtn {
+      color: #4c8ecb;
+      font-size: 1.2em;
+      font-weight: 600;
+      background: none;
+      border: none;
+    }
+    .helperbtn:hover {
+      color: #0071bb;
+    }
+

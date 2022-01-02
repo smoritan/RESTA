@@ -1,28 +1,110 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <section class="firstSection" :style="{ backgroundImage: `url(${firstSectionImage})` }">
+      <div class="helper">
+        <button class="helperbtn" @click="goto('nosotros')">Nosotros</button>
+        <button class="helperbtn" @click="goto('clientes')">Clientes</button>
+        <button class="helperbtn" @click="goto('proveedores')">Proveedores</button>
+        <button class="helperbtn" @click="goto('contacto')">Contacto</button>
+      </div>
+      <h1 class="title">RESTA</h1>
+    </section>
+    <section id="us-section" ref="nosotros">
+      <floatBoxes></floatBoxes>
+      <div class="contAccess" :style="{ backgroundImage: `url(${contactAccess})` }">
+        <button class="btnContact">Contactanos</button>
+      </div>
+    </section>
+    <section class="clients" ref="clientes">
+      <photoGallery></photoGallery>
+    </section>
+    <section class="providers" ref="proveedores">
+      <providerSection></providerSection>
+    </section>
+    <section class="contact" ref="contacto">
+      <contactSection></contactSection>
+    </section>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import firstSectionImage from "./assets/_DSC4925.jpg";
+import contactAccess from './assets/contactAccessBG.png'
+import floatBoxes from "./components/floatBoxes.vue";
+import photoGallery from "./components/photoGallery.vue";
+import providerSection from "./components/providerSection.vue";
+import contactSection from "./components/contactSection.vue"
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    floatBoxes,
+    photoGallery,
+    providerSection,
+    contactSection
+  },
+  data() {
+    return {
+      firstSectionImage,
+      contactAccess,
+    };
+  },
+  methods: {
+     goto(refName) {
+      const element = this.$refs[refName];
+      const top = element.offsetTop;
+
+      window.scrollTo(0, top);
+    }
   }
 }
 </script>
 
 <style>
+@import "./style.scss";
+@import "./styleComponents/floatBoxes.scss";
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: DINNEXT, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #FFFFFF;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+}
+.contAccess {
+  background-size: cover;
+  height: 192px;
+}
+
+.btnContact {background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)}
+.btnContact {
+  font-size: 2em;
+  font-weight: 600;
+  border: none;
+  margin: auto;
+  padding: 15px 45px;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #e7e7e8;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btnContact:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #e7e7e8;
+  text-decoration: none;
+}
+
+.contact {
+  background-color: #58585a;
+  padding: 2% 5%;
 }
 </style>
