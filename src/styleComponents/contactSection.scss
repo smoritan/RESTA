@@ -23,6 +23,7 @@
     padding: 2%;
     border: none;
     background-color: #e7e7e8;
+    position: relative;
 }
 
 .emailBox {
@@ -31,6 +32,7 @@
     font-size: 15px;
     outline: none;
     background-color: #e7e7e8;
+    width: 100%;
 }
 
 .socialBox {
@@ -53,4 +55,30 @@ h3 {
     text-align: center;
     font-weight: 400;
     margin-top: 5%;
+}
+
+.sendBTN {
+    border: none;
+    background: none;
+    color: #58585a;
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    top: 80%;
+    left: 80%;
+}
+
+.map-responsive{
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe{
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }

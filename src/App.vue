@@ -78,6 +78,8 @@ body {
 .contAccess {
   background-size: cover;
   height: 192px;
+  justify-content: center;
+  display: flex;
 }
 
 .btnContact {background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)}

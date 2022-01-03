@@ -8,7 +8,7 @@
             </div>
             <div class="messageCont">
                 <input class="emailBox" v-model="message" placeholder="example">
-                <button>ENVIAR</button>
+                <a href="smoritan@gmail.com?subject=Testing out mailto!"><button class="sendBTN">ENVIAR</button></a>
             </div>
         </div>
         <h3>Sumate a nuestra familia</h3>
@@ -18,14 +18,9 @@
             <a href="https://www.linkedin.com/"><img :src="linkedIn" class="socialSVG" alt="LinkedIn"></a>
             <a href="https://ar.pinterest.com/"><img :src="pinterest" class="socialSVG" alt="Pinterest"></a>
         </div>
-        <iframe
-            width="600"
-            height="450"
-            style="border:0"
-            loading="lazy"
-            allowfullscreen
-            src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJX8nW6OrJvJURsXgtm6dij-w&key=...">
-        </iframe>
+        <div class="map-responsive">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1pd0dd2M2O3nHymwxAOMqf7eFjpuA3k3y&ehbc=2E312F" width="1100" height="700" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
     </div>
 </template>
 
