@@ -109,4 +109,25 @@ body {
   background-color: #58585a;
   padding: 2% 5%;
 }
+
+@media only screen and (max-width : 1300px) {
+  .btnContact {
+    font-size: 1.5em;
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+  .contAccess {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-size: cover;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  .btnContact {
+    font-size: 1em;
+  }
+}
 </style>

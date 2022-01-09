@@ -1,11 +1,10 @@
 .firstSection {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: initial;
     background-size: cover;
-    /* Set rules to fill background */
     min-height: 730px;
-    min-width: 1024px;
+    min-width: 100%;
       
     /* Set up proportionate scaling */
     width: 100%;
@@ -44,3 +43,37 @@
       color: #0071bb;
     }
 
+
+@media only screen and (max-width : 1300px) {
+  .title {
+    font-size: 150px;
+    position: absolute;
+    top: 23%;;
+    left: 50%;
+    transform: translate(-50%, -100%);
+  }
+  
+}
+
+@media only screen and (max-width : 600px) {
+ .title {
+   top: 40%;
+   font-size: 100px;
+ }
+
+ .helper {
+  position: absolute;
+  margin: 2% 3% 0;
+  right: 65px;
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.helperbtn {
+  color: #4c8ecb;
+  font-size: 80%;
+  font-weight: 600;
+  background: none;
+  border: none;
+}
+}
