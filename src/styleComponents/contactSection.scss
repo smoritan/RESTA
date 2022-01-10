@@ -100,6 +100,36 @@ h3 {
 
 }
 
+@media only screen and (max-width : 1000px) {
+    .emailContainer {
+        flex-direction: column;
+    }
+    .infoCont {
+        width: 100%;
+        display: contents;
+    }
+    .inputBox {
+        width: 85%;
+        font-size: 12px;
+    }
+    .messageCont {
+        width: 85%;
+        margin-top: 5%;
+    }
+    .emailBox {
+        font-size: 12px;
+    }
+    .socialBox {
+        width: 80%;
+        margin-bottom: 10%;
+    }
+    .sendBTN {
+        left: 87%;
+        top: 78%;
+    }
+
+}
+
 @media only screen and (max-width : 600px) {
     h2 {
         font-size: 15px;

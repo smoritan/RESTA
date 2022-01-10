@@ -12,7 +12,7 @@
     <section id="us-section" ref="nosotros">
       <floatBoxes></floatBoxes>
       <div class="contAccess" :style="{ backgroundImage: `url(${contactAccess})` }">
-        <button class="btnContact">Contactanos</button>
+        <button class="btnContact" @click="goto('contacto')">Contactanos</button>
       </div>
     </section>
     <section class="clients" ref="clientes">
@@ -24,6 +24,9 @@
     <section class="contact" ref="contacto">
       <contactSection></contactSection>
     </section>
+    <section class="footerSect">
+      <footerSection></footerSection>
+    </section>
   </div>
 </template>
 
@@ -34,6 +37,7 @@ import floatBoxes from "./components/floatBoxes.vue";
 import photoGallery from "./components/photoGallery.vue";
 import providerSection from "./components/providerSection.vue";
 import contactSection from "./components/contactSection.vue"
+import footerSection from "./components/footer.vue"
 
 export default {
   name: 'App',
@@ -41,7 +45,8 @@ export default {
     floatBoxes,
     photoGallery,
     providerSection,
-    contactSection
+    contactSection,
+    footerSection
   },
   data() {
     return {
@@ -107,7 +112,7 @@ body {
 
 .contact {
   background-color: #58585a;
-  padding: 2% 5%;
+  padding: 2% 5% 5%;
 }
 
 @media only screen and (max-width : 1300px) {
@@ -129,5 +134,10 @@ body {
   .btnContact {
     font-size: 1em;
   }
+}
+
+.footerSect {
+  background-color: #767679;
+  padding: 2%;
 }
 </style>

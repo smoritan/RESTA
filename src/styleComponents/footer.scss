@@ -1,0 +1,55 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.ContactData {
+    color: #373739;
+}
+
+.ContactData a {
+    color: #373739;
+    font-weight: 600;
+}
+
+.ContactData a:hover {
+    color: #0071bb;
+}
+.ContactData img {
+    width: 45%;
+}
+
+.ContactData h3 {
+    font-weight: 600;
+}
+
+
+@media only screen and (max-width : 1000px) {
+    .footer {
+        flex-direction: column;
+    }
+    .ContactData {
+        margin-top: 2%;
+    }
+
+    .ContactData a {
+        color: #373739;
+        font-weight: 600;
+        font-size: 85%;
+    }
+
+    .ContactData img {
+        width: 25%;
+    }
+    
+    .ContactData p {
+        font-size: 85%;
+    }
+
+    .ContactData h3 {
+        font-size: 100%;
+    }
+}
