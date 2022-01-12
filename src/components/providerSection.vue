@@ -3,14 +3,16 @@
         <div class="infoContainer">
             <div class="ourProvider">
                 <h2 class="titleDesc">Nuestros Proveedores</h2>
-                <p class="textDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                <p class="textDesc">
+                    RESTA comercializa productos de marcas líderes en los rubros: sanitarios, gas, incendio, calefacción, piscina, riego y herramientas. Además de loza, grifería, y accesorios, contamos con una amplia variedad en equipamiento para el hogar.
+                </p>
             </div>
              <div class="fraseContainer">
                 <span class="titleCont">
-                    <img src="../assets/delivery-box.svg" class="svg">
-                    <h2 class="titleFrase">Nuestros Proveedores</h2>
+                    <img src="..//assets/Logoresta.png" class="svg"/>
                     </span>
-                <p class="frase">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.” </p>
+                <p class="frase">Contactate con uno de nuestros asistentes para hacer el seguimiento personalizado. </p>
+                <button class="btnComunicate">Comunicate con Nosotros</button>
             </div>
         </div>
         <div class="carousel">

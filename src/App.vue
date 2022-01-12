@@ -87,7 +87,7 @@ body {
   display: flex;
 }
 
-.btnContact {background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)}
+.btnContact {background-image: linear-gradient(to right, #0071bb 0%, #98b4df  51%, #0071bb  100%)}
 .btnContact {
   font-size: 2em;
   font-weight: 600;

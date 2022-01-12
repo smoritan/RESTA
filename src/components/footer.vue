@@ -42,6 +42,20 @@
                 <a href="https://www.google.com/maps/place/Resta+Sanitarios+-+Canning/@-34.8852366,-58.5081895,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xa20f32b23b7c7a22!8m2!3d-34.8852612!4d-58.5058672">Ver en Google Maps</a>
             </p>
         </div>
+        <div class="ContactData">
+            <img src="..//assets/RESTALogo.png" />
+            <h3>Caballito</h3>
+            <p>Av. La Plata 568, Buenos Aires</p>
+            <p>
+                <a href="tel:+54 11 4983-4792">+54 11 4983-4792</a>
+            </p>
+            <p>
+                <a href="https://www.resta.com.ar">Tienda Online</a>
+            </p>
+            <p>
+                <a href="https://www.google.com.ar/maps/place/Resta+Sanitarios+-+Caballito/@-34.6216166,-58.4299317,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcca50114c1a73:0xa636aebc8af93894!8m2!3d-34.6216232!4d-58.4277513">Ver en Google Maps</a>
+            </p>
+        </div>
     </div>
 </template>
 

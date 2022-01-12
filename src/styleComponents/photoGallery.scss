@@ -74,8 +74,13 @@
 }
 
 .innerText {
+  font-size: 20px;
     margin: 2%;
     text-align: center; 
+}
+
+.textContainer h2 {
+  font-size: 25px;
 }
 
 @media only screen and (max-width : 600px) {

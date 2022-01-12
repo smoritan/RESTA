@@ -8,6 +8,10 @@
     width: 40%;
     color: #58585a;
     margin: auto 0;
+    text-align: center;
+    border: solid 5px #58585a;
+    border-radius: 25px;
+    padding: 2%;
 }
 
 .titleDesc {
@@ -28,13 +32,12 @@
 
 .titleCont {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     position: relative;
 }
 
 .svg {
     width: 20%;
-    margin-left: 5%;
 }
 
 .titleFrase {
@@ -61,7 +64,6 @@
   }
 
 .inner {
-    white-space: nowrap;
     display: inline-flex;
 }
 
@@ -76,6 +78,27 @@
     justify-content: center;
 }
 
+.btnComunicate {background-image: linear-gradient(to right, #0071bb 0%, #98b4df  51%, #0071bb  100%)}
+.btnComunicate {
+  font-size: 1em;
+  font-weight: 500;
+  border: none;
+  margin: auto;
+  padding: 15px 40px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #e7e7e8;     
+  border-radius: 10px;
+  display: block;
+}
+
+.btnComunicate:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #e7e7e8;
+  text-decoration: none;
+}
 
 @media only screen and (max-width : 1300px) {
     .titleCont {
@@ -85,7 +108,6 @@
     }
     .svg {
         width: 15%;
-        margin-left: 2%;
     }
 
     .titleFrase{
@@ -108,17 +130,24 @@
     .card img {
         width: 60%;
     }
+
+    .btnComunicate {
+        padding: 10px 35px;
+      }
 }
   
 @media only screen and (max-width : 600px) {
     .infoContainer {
         margin: 14% 4% 0 4%;
+        flex-direction: column;
+        align-items: center;
     }
     .ourProvider {
         width: 45%;
     }
     .fraseContainer {
         width: 45%;
+        margin-top: 5%;
     }
     .titleCont {
         display: flex;
@@ -127,7 +156,6 @@
     }
     .svg {
         width: 15%;
-        margin-left: 2%;
     }
 
     .titleFrase{
@@ -155,5 +183,10 @@
     .card img {
         width: 50%;
     }
+
+    .btnComunicate {
+        font-size: 0.5em;
+        padding: 5px 30px;
+      }
     
 }

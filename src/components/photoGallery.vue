@@ -11,7 +11,7 @@
     <div class="shadow"><p class="ghostContent">..</p></div>
     <div class="textContainer">
       <h2 class="innerText"> Su sueño, Nuestro orgullo. </h2>
-      <p class="innerText">Participamos en los sueños de muchos, apoyando el proceso y participando en el crecimiento de la cuidad y del país. Ver a nuestros clientes cumplir sus sueños es uno de los motores que impulsan el crecimiento de RESTA.</p>
+      <p class="innerText">Atraves de los sueños de nuestros clientes participamos del crecimiento y desarrollo a lo largo de todo el país.</p>
     </div>
   </div>
 </template>
