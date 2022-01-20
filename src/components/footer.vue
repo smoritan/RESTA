@@ -1,7 +1,7 @@
 <template>
     <div class="footer">
         <div class="ContactData">
-            <img src="..//assets/RESTALogo.png" />
+            <img src="../assets/SVG/Principal.svg" />
             <h3>Floresta</h3>
             <p>Av. Gaona 4292, C1407 CABA</p>
             <p>
@@ -15,7 +15,7 @@
                 </p>
         </div>
         <div class="ContactData">
-            <img src="..//assets/RESTALogo.png" />
+            <img src="../assets/SVG/Principal.svg" />
             <h3>Central Grandes Obras</h3>
             <p>Goya 621, C1407 CABA</p>
             <p>
@@ -29,7 +29,7 @@
             </p>
         </div>
         <div class="ContactData">
-            <img src="..//assets/RESTALogo.png" />
+            <img src="../assets/SVG/Principal.svg" />
             <h3>Canning</h3>
             <p>Mariano Castex 3489 Oficina B5</p>
             <p>
@@ -43,7 +43,7 @@
             </p>
         </div>
         <div class="ContactData">
-            <img src="..//assets/RESTALogo.png" />
+            <img src="../assets/SVG/Principal.svg" />
             <h3>Caballito</h3>
             <p>Av. La Plata 568, Buenos Aires</p>
             <p>
@@ -54,6 +54,20 @@
             </p>
             <p>
                 <a href="https://www.google.com.ar/maps/place/Resta+Sanitarios+-+Caballito/@-34.6216166,-58.4299317,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcca50114c1a73:0xa636aebc8af93894!8m2!3d-34.6216232!4d-58.4277513">Ver en Google Maps</a>
+            </p>
+        </div>
+        <div class="ContactData">
+            <img src="../assets/SVG/Principal.svg" />
+            <h3>Salvador</h3>
+            <p>Av. Segurola 648, CABA</p>
+            <p>
+                <a href="mailto:expedicion@sanitariosresta.com.ar">expedicion@sanitariosresta.com.ar</a>
+            </p>
+            <p>
+                <a href="https://www.resta.com.ar">Tienda Online</a>
+            </p>
+            <p>
+                <a href="https://www.google.com/maps/place/Av.+Segurola+648,+C1407ANL+CABA/@-34.6289247,-58.4910462,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcc9bf7783badf:0xb56dde8c870a71c1!8m2!3d-34.6289247!4d-58.4888575">Ver en Google Maps</a>
             </p>
         </div>
     </div>

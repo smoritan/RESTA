@@ -7,7 +7,7 @@
         <button class="helperbtn" @click="goto('proveedores')">Proveedores</button>
         <button class="helperbtn" @click="goto('contacto')">Contacto</button>
       </div>
-      <h1 class="title">RESTA</h1>
+      <img src="./assets/SVG/Logotipo.svg" class="title" />
     </section>
     <section id="us-section" ref="nosotros">
       <floatBoxes></floatBoxes>
@@ -31,8 +31,8 @@
 </template>
 
 <script>
-import firstSectionImage from "./assets/_DSC4925.jpg";
-import contactAccess from './assets/contactAccessBG.png'
+import firstSectionImage from "./assets/-DSC5029.jpeg";
+import contactAccess from './assets/contactAccessBG.jpg'
 import floatBoxes from "./components/floatBoxes.vue";
 import photoGallery from "./components/photoGallery.vue";
 import providerSection from "./components/providerSection.vue";

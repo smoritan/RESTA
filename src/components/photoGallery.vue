@@ -19,7 +19,10 @@
 <script>
 import movistarArena from "../assets/movistarArenas.jpeg";
 import donnaAqua from "../assets/donnaAqua.jpeg";
-import aeroEzeiza from "../assets/AeroEzeiza.jpeg"
+import aeroEzeiza from "../assets/AeroEzeiza.jpeg";
+import CCK from "../assets/CCK.jpeg"
+import bañoPic from "../assets/bano.jpeg";
+import kitchenPic from "../assets/kitchen.jpeg";
 
 export default {
 
@@ -29,12 +32,18 @@ export default {
       images: [
         movistarArena,
         donnaAqua,
-        aeroEzeiza
+        aeroEzeiza,
+        CCK,
+        bañoPic,
+        kitchenPic
       ],
       titles: [
         'Movistar Arena',
         'Edificio DONNA Aqua',
-        'Aeropuerto Int. Ministro Pistarini'
+        'Aeropuerto Int. Ministro Pistarini',
+        'Centro Culturar Nestor Kirchner',
+        'Baño intervenido por RESTA',
+        'Cocina intervenida por RESTA'
       ],
       timer: null,
       currentIndex: 0

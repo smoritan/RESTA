@@ -9,7 +9,7 @@
             </div>
              <div class="fraseContainer">
                 <span class="titleCont">
-                    <img src="..//assets/Logoresta.png" class="svg"/>
+                    <img src="../assets/SVG/Isotipo.svg" class="svg"/>
                     </span>
                 <p class="frase">Contactate con uno de nuestros asistentes para hacer el seguimiento personalizado. </p>
                 <button class="btnComunicate">Comunicate con Nosotros</button>

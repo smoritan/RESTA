@@ -16,12 +16,11 @@
     left: 0;
   }
     .title {
-      font-size: 250px;
-      color: #FFFFFF;
+      width: 70%;
       position: absolute;
-      top: 40%;
+      top: 50%;
       left: 50%;
-      transform: translate(-50%, -100%);
+      transform: translate(-50%, -50%);
       -webkit-animation: 2s ease 0s normal forwards 1 fadein;
       animation: 2s ease 0s normal forwards 1 fadein;
     }
@@ -59,11 +58,11 @@
 
 @media only screen and (max-width : 1300px) {
   .title {
-    font-size: 150px;
+    width: 70%;
     position: absolute;
-    top: 23%;;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -100%);
+    transform: translate(-50%, -50%);
   }
   
 }
@@ -81,8 +80,10 @@
 
 @media only screen and (max-width : 600px) {
  .title {
-   top: 40%;
-   font-size: 100px;
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
  }
 
  .helper {

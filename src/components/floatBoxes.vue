@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import picture1 from "../assets/_DSC5166.jpg";
+import picture1 from "../assets/-DSC5170.jpeg";
 import picture2 from "../assets/_DSC2057.jpg";
 
 export default {

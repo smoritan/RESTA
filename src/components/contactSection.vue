@@ -8,14 +8,15 @@
             </div>
             <div class="messageCont">
                 <input class="emailBox" v-model="message" placeholder="example">
-                <a href="smoritan@gmail.com?subject=Testing out mailto!"><button class="sendBTN">ENVIAR</button></a>
+                <a href="mailto:info@sanitariosresta.com.ar?"><button class="sendBTN">ENVIAR</button></a>
             </div>
         </div>
         <h3>Sumate a nuestra familia</h3>
         <div class="socialBox">
-            <a href="https://www.whatsapp.com/"><img :src="whatsapp" class="socialSVG" alt="WhatsApp"></a>
             <a href="https://mercadolibre.com/"><img :src="mercadolibre" class="socialSVG" alt="MercadoLibre"></a>
             <a href="https://www.linkedin.com/"><img :src="linkedIn" class="socialSVG" alt="LinkedIn"></a>
+            <a href="https://www.linkedin.com/" class="facebookLogo"><img :src="facebook" class="socialSVG" alt="Facebook"></a>
+            <a href="https://www.whatsapp.com/"><img :src="whatsapp" class="socialSVG" alt="WhatsApp"></a>
             <a href="https://ar.pinterest.com/"><img :src="pinterest" class="socialSVG" alt="Pinterest"></a>
         </div>
         <div class="map-responsive">
@@ -29,6 +30,7 @@ import mercadolibre from '../assets/SVG/mercadolibre.svg';
 import linkedIn from '../assets/SVG/linkedIn.svg';
 import whatsapp from '../assets/SVG/whatsapp.svg';
 import pinterest from '../assets/SVG/pinterest.svg';
+import facebook from '../assets/SVG/FacebookLogo.svg';
 
 export default {
 props: {
@@ -49,6 +51,7 @@ data() {
     return {
       mercadolibre,
       linkedIn,
+      facebook,
       whatsapp,
       pinterest
     };
