@@ -13,11 +13,11 @@
         </div>
         <h3>Sumate a nuestra familia</h3>
         <div class="socialBox">
-            <a href="https://mercadolibre.com/"><img :src="mercadolibre" class="socialSVG" alt="MercadoLibre"></a>
-            <a href="https://www.linkedin.com/"><img :src="linkedIn" class="socialSVG" alt="LinkedIn"></a>
-            <a href="https://www.linkedin.com/" class="facebookLogo"><img :src="facebook" class="socialSVG" alt="Facebook"></a>
-            <a href="https://www.whatsapp.com/"><img :src="whatsapp" class="socialSVG" alt="WhatsApp"></a>
-            <a href="https://ar.pinterest.com/"><img :src="pinterest" class="socialSVG" alt="Pinterest"></a>
+            <a href="https://restasanitarios.mercadoshops.com.ar/"><img :src="mercadolibre" class="socialSVG" alt="MercadoLibre"></a>
+            <a href="https://www.linkedin.com/company/restasanitarios"><img :src="linkedIn" class="socialSVG" alt="LinkedIn"></a>
+            <a href="https://m.facebook.com/restaoficial" class="facebookLogo"><img :src="facebook" class="socialSVG" alt="Facebook"></a>
+            <a href="https://api.whatsapp.com/send?phone=541131930074&text=%C2%A1Hola%21+Estoy+en+la+tienda+RESTA+y+quiero+pedir+m%C3%A1s+informaci%C3%B3n."><img :src="whatsapp" class="socialSVG" alt="WhatsApp"></a>
+            <a href="https://pin.it/5VCEp0Y"><img :src="pinterest" class="socialSVG" alt="Pinterest"></a>
         </div>
         <div class="map-responsive">
         <iframe src="https://www.google.com/maps/d/embed?mid=1pd0dd2M2O3nHymwxAOMqf7eFjpuA3k3y&ehbc=2E312F" width="1100" height="700" style="border:0;" allowfullscreen="" loading="lazy"></iframe>

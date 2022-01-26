@@ -81,18 +81,22 @@
 
 .btnComunicate {background-image: linear-gradient(to right, #0071bb 0%, #98b4df  51%, #0071bb  100%)}
 .btnComunicate {
-  font-size: 1em;
-  font-weight: 500;
   border: none;
   margin: auto;
   padding: 15px 40px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
-  background-size: 200% auto;
-  color: #e7e7e8;     
+  background-size: 200% auto;   
   border-radius: 10px;
   display: block;
+}
+
+.btnComunicate a {
+    text-decoration: none;
+    color: #e7e7e8;    
+    font-size: 1.2em;
+    font-weight: 500;
 }
 
 .btnComunicate:hover {
@@ -186,7 +190,7 @@
     }
 
     .btnComunicate {
-        font-size: 0.5em;
+        font-size: 0.7em;
         padding: 5px 30px;
       }
     

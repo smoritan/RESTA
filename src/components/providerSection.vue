@@ -12,7 +12,7 @@
                     <img src="../assets/SVG/Isotipo.svg" class="svg"/>
                     </span>
                 <p class="frase">Contactate con uno de nuestros asistentes para hacer el seguimiento personalizado. </p>
-                <button class="btnComunicate">Comunicate con Nosotros</button>
+                <button class="btnComunicate"><a href="https://api.whatsapp.com/send?phone=541131930074&text=%C2%A1Hola%21+Estoy+en+la+tienda+RESTA+y+quiero+pedir+m%C3%A1s+informaci%C3%B3n.">Comunicate con Nosotros</a></button>
             </div>
         </div>
         <div class="carousel">
