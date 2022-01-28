@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import firstSectionImage from "./assets/-DSC5029.jpeg";
+import firstSectionImage from "./assets/-DSC5029T.jpg";
 import contactAccess from './assets/contactAccessBG.jpg'
 import floatBoxes from "./components/floatBoxes.vue";
 import photoGallery from "./components/photoGallery.vue";

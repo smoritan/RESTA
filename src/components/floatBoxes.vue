@@ -26,8 +26,8 @@
 </template>
 
 <script>
-import picture1 from "../assets/-DSC5170.jpeg";
-import picture2 from "../assets/_DSC2057.jpg";
+import picture1 from "../assets/-DSC5170T.jpg";
+import picture2 from "../assets/_DSC2057T.jpg";
 
 export default {
   name: 'FloatBoxes',

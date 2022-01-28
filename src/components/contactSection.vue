@@ -8,7 +8,7 @@
             </div>
             <div class="messageCont">
                 <input class="emailBox" v-model="message" placeholder="example">
-                <a href="mailto:info@sanitariosresta.com.ar?"><button class="sendBTN">ENVIAR</button></a>
+                <a href="mailto:info@sanitariosresta.com.ar"><button class="sendBTN">ENVIAR</button></a>
             </div>
         </div>
         <h3>Sumate a nuestra familia</h3>
@@ -34,10 +34,10 @@ import facebook from '../assets/SVG/FacebookLogo.svg';
 
 export default {
 props: {
-    name: {
-        type: String,
-        default: ''
-    },
+    // name: {
+    //     type: String,
+    //     default: ''
+    // },
     email: {
         type: String,
         default: ''
@@ -53,9 +53,15 @@ data() {
       linkedIn,
       facebook,
       whatsapp,
-      pinterest
+      pinterest,
+      name: '',
     };
-  }
+},
+    computed: {
+        console() {
+            return console.log(this.data.name);
+        }
+    }
 }
 </script>
 
