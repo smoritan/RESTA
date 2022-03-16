@@ -62,6 +62,9 @@
 
 
 @media only screen and (max-width : 1300px) {
+    .imageMobile {
+        width: 80%;
+    }
     .container {
         display: inline-flex;
         flex-direction: column;
@@ -81,6 +84,9 @@
 }
 
 @media only screen and (max-width : 600px) {
+    .imageMobile {
+        width: 65%;
+    }
     #us h1 {
         font-size: 100%;
     }

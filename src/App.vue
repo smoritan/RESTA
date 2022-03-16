@@ -5,9 +5,11 @@
         <button class="helperbtn" @click="goto('nosotros')">Nosotros</button>
         <button class="helperbtn" @click="goto('clientes')">Clientes</button>
         <button class="helperbtn" @click="goto('proveedores')">Proveedores</button>
+        <button class="helperbtn"><a href="https://restasanitarios.mercadoshops.com.ar/"> Tienda </a></button>
         <button class="helperbtn" @click="goto('contacto')">Contacto</button>
       </div>
       <img src="./assets/SVG/Logotipo.svg" class="title" />
+      <a href="https://api.whatsapp.com/send?phone=541131930074&text=%C2%A1Hola%21+Estoy+en+la+tienda+RESTA+y+quiero+pedir+m%C3%A1s+informaci%C3%B3n."><img :src="whatsapp" class="wwp" alt="WhatsApp"></a>
     </section>
     <section id="us-section" ref="nosotros">
       <floatBoxes></floatBoxes>
@@ -38,6 +40,7 @@ import photoGallery from "./components/photoGallery.vue";
 import providerSection from "./components/providerSection.vue";
 import contactSection from "./components/contactSection.vue"
 import footerSection from "./components/footer.vue"
+import whatsapp from './assets/SVG/whatsapp.svg';
 
 export default {
   name: 'App',
@@ -52,6 +55,7 @@ export default {
     return {
       firstSectionImage,
       contactAccess,
+      whatsapp,
     };
   },
   methods: {
@@ -114,6 +118,7 @@ body {
   background-color: #58585a;
   padding: 2% 5% 5%;
 }
+
 
 @media only screen and (max-width : 1300px) {
   .btnContact {

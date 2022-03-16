@@ -7,13 +7,6 @@
                     RESTA comercializa productos de marcas líderes en los rubros: sanitarios, gas, incendio, calefacción, piscina, riego y herramientas. Además de loza, grifería, y accesorios, contamos con una amplia variedad en equipamiento para el hogar.
                 </p>
             </div>
-             <div class="fraseContainer">
-                <span class="titleCont">
-                    <img src="../assets/SVG/Isotipo.svg" class="svg"/>
-                    </span>
-                <p class="frase">Contactate con uno de nuestros asistentes para hacer el seguimiento personalizado. </p>
-                <button class="btnComunicate"><a href="https://api.whatsapp.com/send?phone=541131930074&text=%C2%A1Hola%21+Estoy+en+la+tienda+RESTA+y+quiero+pedir+m%C3%A1s+informaci%C3%B3n.">Comunicate con Nosotros</a></button>
-            </div>
         </div>
         <div class="carousel">
             <div class="inner">

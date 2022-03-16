@@ -36,16 +36,22 @@
       100% { opacity:1; }
   }
     .helper {
+      -webkit-animation: 3s ease 0s normal forwards 1 fadein;
+      animation: 3s ease 0s normal forwards 1 fadein;
+      background-color: #4c8ecb;
       position: absolute;
-      margin: 2% 3% 0;
+      margin: 2% 3% 0 3%;
+      height: 5%;
+      border-radius: 25px;
       right: 0;
       width: 40%;
       display: flex;
+      padding: 0 2%;
       justify-content: space-evenly;
     }
   
     .helperbtn {
-      color: #4c8ecb;
+      color: #fff;
       font-size: 1.2em;
       font-weight: 600;
       background: none;
@@ -54,6 +60,25 @@
     .helperbtn:hover {
       color: #0071bb;
     }
+    .helperbtn a {
+      text-decoration: none;
+      color: #fff;
+    }
+    .helperbtn a:hover {
+      color: #0071bb;
+    }
+
+    .wwp {
+      width: 10%;
+      position: fixed;
+      z-index: 1000;
+      left: 40px;
+      bottom: -50px;
+      margin: 1%;
+      transform: translate(-50%, -50%);
+      -webkit-animation: 8s ease 0s normal forwards 1 fadein;
+      animation: 8s ease 0s normal forwards 1 fadein;
+     }
 
 
 @media only screen and (max-width : 1300px) {
@@ -64,21 +89,43 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  .helper {
+    padding: 0 2%;
+  }
+  .helperbtn {
+    font-size: 85%;
+  }
+  .wwp {
+    width: 10%;
+    z-index: 1000;
+    left: 25px;
+    bottom: -45px;
+  }
   
 }
 
 @media only screen and (max-width : 1000px) {
   .helper {
     position: absolute;
-    margin: 2% 3% 0;
-    right: 65px;
+    margin: 2% 3% 0 3%;
+    right: 30px;
     width: 40%;
+    padding: 0 2%;
     display: flex;
     justify-content: space-evenly;
   }
+  .helperbtn {
+    font-size: 75%;
+  }
+  .wwp {
+    width: 15%;
+    z-index: 1000;
+    left: 25px;
+    bottom: -35px;
+  }
 }
 
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width : 800px) {
  .title {
   width: 70%;
   position: absolute;
@@ -88,17 +135,24 @@
 
  .helper {
   position: absolute;
-  margin: 2% 3% 0;
-  right: 65px;
-  width: 40%;
+  margin: 2% 3% 0 3%;
+  right: 30px;
+  width: 50%;
+  padding: 0 2%;
   display: flex;
   justify-content: space-evenly;
 }
 .helperbtn {
-  color: #4c8ecb;
-  font-size: 80%;
+  color: #fff;
+  font-size: 50%;
   font-weight: 600;
   background: none;
   border: none;
+}
+.wwp {
+  width: 15%;
+  z-index: 1000;
+  left: 25px;
+  bottom: -20px;
 }
 }

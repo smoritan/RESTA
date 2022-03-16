@@ -2,7 +2,7 @@
     <section id="us">
       <h1>Asi Somos.</h1>
       <div class="container">
-        <div class="floted up">
+        <div class="floted up imageMobile">
           <img :src="picture2" class="floatImages"/>
         </div>
         <div class="floted fText down">
@@ -18,7 +18,7 @@
             Ofrecemos soluciones integrales en cada etapa de obra.
           </p>
         </div>
-        <div class="floted down">
+        <div class="floted down imageMobile">
           <img :src="picture1" class="floatImages"/>
         </div>
       </div>

@@ -59,7 +59,21 @@ h3 {
     font-size: 20px;
     text-align: center;
     font-weight: 400;
-    margin-top: 5%;
+}
+
+.contactBtn {
+    font-size: 29px;
+    background-color: #e7e7e8;
+    border: none;
+    padding: 2% 10%;
+    border-radius: 25px;
+    margin: 3%;
+    color: #58585a;
+}
+
+.contactBtn a {
+    text-decoration: none;
+    color: #58585a;
 }
 
 .sendBTN {
@@ -124,12 +138,15 @@ h3 {
         font-size: 12px;
     }
     .socialBox {
-        width: 80%;
+        width: 70%;
         margin-bottom: 10%;
     }
     .sendBTN {
         left: 87%;
         top: 78%;
+    }
+    .contactBtn {
+        font-size: 20px;
     }
 
 }
@@ -160,7 +177,7 @@ h3 {
         font-size: 12px;
     }
     .socialBox {
-        width: 80%;
+        width: 60%;
         margin-bottom: 10%;
     }
     .sendBTN {
